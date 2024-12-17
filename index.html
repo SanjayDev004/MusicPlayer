@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music player</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" /> 
+</head>
+<body>
+    <div id="container">
+        <nav>
+            <div id="search">
+                <input type="search" placeholder="Find your fav music" name="serach">
+                <button type="submit"><i class="fa fa-search"></i></button>
+            </div>
+            <div id="navbar">
+                <a href="#">Home</a>
+                <a href="#">Playlist</a>
+                <a href="#">About</a>
+            </div>
+        </nav>
+
+        <div id="audio">
+            <img src="OR.jpeg">
+            <h2>Ordinary-Person</h2><br>
+            <li>Actor: Vijay</li>
+            <li>Director: Lokesh Kanagaraj</li>
+            <li>Music: Anirudh Ravichander</li>
+            <audio  id="duration">
+                <source src="Or.mp3" type="audio/mpeg">
+            </audio>
+            <input type="range" value="0" id="timeline" step="0.1">
+            
+        </div>
+
+        <div id="controls">
+            <div><button>Backward</button></div>
+            <div><button id="ctrl">Play</button></div>
+            <div><button>Forward</button></div>
+        </div>
+        
+    </div>
+</body>
+<script src="script.js"></script>
+</html>

@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Parkinsans:wght@300..800&family=Playwrite+DE+Grund:wght@100..400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: none;
+    font-family: "Montserrat", sans-serif;
+}
+#container{
+    height: 100vh;
+    width: 100%;
+    background-color: #d1d8e0;
+}
+nav{
+    height: 70px;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 20px;
+    background-color: #82589F;
+    align-items: center;
+}
+#search{
+    padding-left: 20px;
+   
+}
+#search input,button{
+    padding: 12px;
+    border-radius: 10px 10px 10px 10px;
+    border: none;
+}
+nav #navbar a{
+    font-weight: 500;
+    font-size: 23px;
+    margin-left: 20px;
+    padding: 5px;
+    text-decoration: none;
+    color: white;
+}
+#audio{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+#audio img{
+    height: 220px;
+    width: auto;
+    border-radius: 10px;
+    box-shadow: 17px 10px 37px -4px rgba(0,0,0,0.75);
+}
+#audio #timeline{
+    width: 70%;
+    cursor: pointer;
+    margin: 40px 0;
+}
+#controls{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#controls div button{
+    background-color: #82589F;
+    color: white;
+    margin-left: 10px;
+    font-size: 15px;
+    cursor: pointer;
+    width: 90px;
+    text-align: center;
+}
+#audio>li{
+    list-style: none;
+    padding: 5px;
+}
+#audio>h2{
+    margin-top: 10px;
+    font-weight: 300;
+    margin-bottom: 0;
+}
